@@ -6,20 +6,20 @@ Este projeto fornece uma solução para processar e analisar um arquivo CSV de g
 
 O arquivo vendas.csv contém as seguintes colunas:
 
-Region: Região da venda
-Country: País da venda
-Item Type: Tipo de item vendido
-Sales Channel: Canal de vendas
-Order Priority: Prioridade do pedido
-Order Date: Data do pedido
-Order ID: ID do pedido
-Ship Date: Data de envio
-Units Sold: Unidades vendidas
-Unit Price: Preço unitário
-Unit Cost: Custo unitário
-Total Revenue: Receita total
-Total Cost: Custo total
-Total Profit: Lucro total
+- Region: Região da venda
+- Country: País da venda
+- Item Type: Tipo de item vendido
+- Sales Channel: Canal de vendas
+- Order Priority: Prioridade do pedido
+- Order Date: Data do pedido
+- Order ID: ID do pedido
+- Ship Date: Data de envio
+- Units Sold: Unidades vendidas
+- Unit Price: Preço unitário
+- Unit Cost: Custo unitário
+- Total Revenue: Receita total
+- Total Cost: Custo total
+- Total Profit: Lucro total
 
 # Objetivos
 
