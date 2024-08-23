@@ -52,7 +52,7 @@ Este relatório descreve a abordagem adotada para processar e analisar um arquiv
 
 # Otimizações de Performance
 
-1. Redução do Tamanho do Chunk: O tamanho do chunk é ajustado para balancear o uso de memória e o desempenho. O valor de 50.000 linhas por chunk é um compromisso entre o uso eficiente da memória e a performance. Esse valor pode ser ajustado conforme a capacidade específica da máquina.
+1. Redução do Tamanho do Chunk: O tamanho do chunk é ajustado para balancear o uso de memória e o desempenho. O valor de 1.000.000 linhas por chunk é um compromisso entre o uso eficiente da memória e a performance. Esse valor pode ser ajustado conforme a capacidade específica da máquina.
 
 2. Eficiência na Manipulação de DataFrames: O uso de parse_dates durante a leitura dos chunks permite que as colunas de datas sejam convertidas diretamente durante a leitura, evitando a necessidade de conversão adicional após a leitura, o que economiza tempo e recursos.
 
