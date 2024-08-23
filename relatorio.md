@@ -10,7 +10,7 @@ Este relatório descreve a abordagem adotada para processar e analisar um arquiv
 
     Problema: Carregar um arquivo de 5GB inteiro na memória pode causar problemas de falta de memória (Out of Memory) e degradação de desempenho.
 
-    Solução: Para mitigar este problema, a leitura do arquivo é realizada em partes menores, ou "chunks", utilizando o parâmetro chunksize da função pd.read_csv da biblioteca Pandas. Cada chunk contém um número específico de linhas (definido como 50.000 linhas no exemplo). Esta abordagem permite que o processamento de dados seja feito em pedaços menores, reduzindo significativamente o consumo de memória e facilitando a análise dos dados.
+    Solução: Para mitigar este problema, a leitura do arquivo é realizada em partes menores, ou "chunks", utilizando o parâmetro chunksize da função pd.read_csv da biblioteca Pandas. Cada chunk contém um número específico de linhas (definido como 1.000.000 linhas no exemplo). Esta abordagem permite que o processamento de dados seja feito em pedaços menores, reduzindo significativamente o consumo de memória e facilitando a análise dos dados.
 
    Exemplo:
 
